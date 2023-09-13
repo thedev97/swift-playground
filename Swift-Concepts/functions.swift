@@ -36,7 +36,7 @@ print(result)*/
 func1(message: "This is Soumya.")*/
 
 // Factorial Iterative way
-func factorial(n:Int) -> Int{
+/*func factorial(n:Int) -> Int{
   var result = 1;
   for i in 1...n {
     result *= i
@@ -44,5 +44,14 @@ func factorial(n:Int) -> Int{
   return result
 }
 let result = factorial(n:6)
-print(result)
+print(result)*/
 
+// Multiplication of table form
+func multiplicationOfTwo(num:Int){
+  for i in 1...10 {
+    let result = num * i
+    print("\(num) * \(i) = \(result)")
+  }
+}
+var num = 2
+multiplicationOfTwo(num:num)
