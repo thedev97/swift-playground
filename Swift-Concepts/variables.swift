@@ -1,5 +1,5 @@
 var a = 12 // mutable 
-print("valu of a: ",a)
+print("value of a: ",a)
 a = 15
 print("change the value of a: " , a)
 

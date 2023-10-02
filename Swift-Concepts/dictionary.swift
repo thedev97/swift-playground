@@ -18,3 +18,12 @@ for (i,j) in dict1 {
 print(dict1.count)
 print(dict2.isEmpty)
 print(emptyDict.isEmpty)
+
+let ages = ["Soumya" : 26, "Ashis" : 29]
+print(ages["Soumya"]!)
+// optional binding
+if let arrayAges = ages["Ashis"]
+{
+   print("Ashis is \(arrayAges) years old.")
+   
+}
